@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
+<h2>Setup</h2>
 
-You can use the [editor on GitHub](https://github.com/chendaniely/2018-10-python1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<h3>Python</h3>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <p>
+    Installing the computational, research, and/or data science packages individually in Python can be a bit difficult.
+    <a href="https://www.continuum.io/anaconda">Anaconda</a>,
+    an all-in-one installer, is recommended.
+  </p>
 
-### Markdown
+    <p>
+      Regardless of how you choose to install it,
+      <strong>please make sure you install Python version 3.x</strong>
+      (e.g., 3.7 is fine).
+    </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <p>
+      We will teach Python using the IPython notebook, a programming environment
+      that runs in a web browser. For this to work you will need a reasonably
+      up-to-date browser. The current versions of the Chrome, Safari and
+      Firefox browsers are all
+      <a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
+      (some older browsers, including Internet Explorer version 9
+      and below, are not).
+    </p>
 
-```markdown
-Syntax highlighted code block
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="python-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for Windows.</li>
+        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <h4 id="python-macosx">Mac OS X</h4>
+      <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for OS X.</li>
+        <li>Install Python 3 using all of the defaults for installation.</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <h4 id="python-linux">Linux</h4>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for Linux.<br>
+          (Installation requires using the shell. If you aren't
+           comfortable doing the installation yourself
+           stop here and request help at the workshop.)
+        </li>
+        <li>
+          Open a terminal window.
+        </li>
+        <li>
+          Type <pre>bash Anaconda3-</pre> and then press
+          tab. The name of the file you just downloaded should
+          appear. If it does not, navigate to the folder where you
+          downloaded the file, for example with:
+          <pre>cd Downloads</pre>
+          Then, try again.
+        </li>
+        <li>
+          Press enter. You will follow the text-only prompts. To move through
+          the text, press the space key. Type <code>yes</code> and
+          press enter to approve the license. Press enter to approve the
+          default location for the files. Type <code>yes</code> and
+          press enter to prepend Anaconda to your <code>PATH</code>
+          (this makes the Anaconda distribution the default Python).
+        </li>
+        <li>
+          Close the terminal window.
+      </ol>
+    </div>
+  </div>
+</div> <!-- End of 'Python' section. -->
 
-# Header 1
-## Header 2
-### Header 3
+<h3>Testing If Anaconda was installed</h3>
 
-- Bulleted
-- List
+<ol>
+	<li>Open up the Anaconda Command Prompt</li>
+	<li>Type "ipython" into the prompt</li>
+	<li>You should see Python open up with Python 3.7.x and using the Anaconda distribution</li>
+	<li>Type "quit()" to exit</li>
+	<li>Type "jupyer notebook" to launch the notebook (this may take a while if it is the first time you are launching it)</li>
+	<li>Close the anaconda prompt when you're done</li>
+</ol>
 
-1. Numbered
-2. List
+<h3>Installing Packages</h3>
 
-**Bold** and _Italic_ and `Code` text
+To install the packages needed for the class you can follow the instructions below:
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chendaniely/2018-10-python1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<ol>
+	<li>Open your Anaconda Command prompt (Windows)</li>
+	<li>Run the following lines of code (note that ctrl+v may not paste in windows, you can paste by pressing shift + insert, or by clicking the icon to the top right of the Anaconda Command promt > edit > paste)</li>
+<pre><code>conda install xlwt openpyxl feather-format seaborn statsmodels scikit-learn regex wget odo numba
+pip install lifelines pandas-datareader
+</code></pre>
+</ol>
