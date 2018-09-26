@@ -2,49 +2,44 @@
 
 <h3>Python</h3>
 
-  <p>
-    Installing the computational, research, and/or data science packages individually in Python can be a bit difficult.
-    <a href="https://www.continuum.io/anaconda">Anaconda</a>,
-    an all-in-one installer, is recommended.
-  </p>
+<p>
+Installing the computational, research, and/or data science packages individually in Python can be a bit difficult.
+<a href="https://www.continuum.io/anaconda">Anaconda</a>,
+an all-in-one installer, is recommended.
+</p>
 
-    <p>
-      Regardless of how you choose to install it,
-      <strong>please make sure you install Python version 3.x</strong>
-      (e.g., 3.7 is fine).
-    </p>
+<p>
+Regardless of how you choose to install it,
+<strong>please make sure you install Python version 3.x</strong>
+(e.g., 3.7 is fine).
+</p>
 
-    <p>
-      We will teach Python using the IPython notebook, a programming environment
-      that runs in a web browser. For this to work you will need a reasonably
-      up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all
-      <a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
-      (some older browsers, including Internet Explorer version 9
-      and below, are not).
-    </p>
+<p>
+When using the IPython notebook, a programming environment
+that runs in a web browser, you will need a reasonably
+up-to-date browser. The current versions of the Chrome, Safari and
+Firefox browsers are all
+<a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
+(some older browsers, including Internet Explorer version 9
+and below, are not).
+</p>
 
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="python-windows">Windows</h4>
+<h4 id="python-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
       <ol>
         <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
       </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-macosx">Mac OS X</h4>
+
+<h4 id="python-macosx">Mac OS X</h4>
       <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
         <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
         <li>Download the Python 3 installer for OS X.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
       </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-linux">Linux</h4>
+<h4 id="python-linux">Linux</h4>
       <ol>
         <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
         <li>Download the Python 3 installer for Linux.<br>
@@ -74,9 +69,6 @@
         <li>
           Close the terminal window.
       </ol>
-    </div>
-  </div>
-</div> <!-- End of 'Python' section. -->
 
 <h3>Testing If Anaconda was installed</h3>
 
