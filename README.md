@@ -26,6 +26,7 @@ and below, are not).
 <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
 </ol>
 
+<!--
 #### Mac OS X
 <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
 <ol>
@@ -64,6 +65,7 @@ press enter to prepend Anaconda to your <code>PATH</code>
 <li>
 Close the terminal window.
 </ol>
+-->
 
 ### Testing If Anaconda was installed
 
@@ -76,13 +78,15 @@ Close the terminal window.
 6. Note the URL (with the token), paste it into your browser
 7. Close the anaconda prompt when you're done
 
-
 ### Installing Packages
 
 To install the packages needed for the class you can follow the instructions below:
 
 1. Open your Anaconda Command prompt (Windows)
-2. Run the following lines of code (note that ctrl+v may not paste in windows, you can paste by pressing shift + insert, or by clicking the icon to the top right of the Anaconda Command promt > edit > paste)
+2. Run the following lines of code
+    - note that ctrl+v may not paste in windows,
+	  you can paste by pressing shift + insert,
+	  or by clicking the icon to the top left of the Anaconda Command promt then edit then paste
 
 ``` bash
 conda install xlwt openpyxl feather-format seaborn statsmodels scikit-learn regex wget odo numba
