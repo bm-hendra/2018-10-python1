@@ -128,6 +128,49 @@ pip install lifelines pandas-datareader
 	- scikitlearn
 	- statsmodels
 
+## Further learning (DataCamp)
+
+- Cleaning Data in Python
+	- Review from the class
+- Supervised Learning with scikit-learn
+	- All of it
+	- Particularly, Ch4: Preprocessing and pipelines
+- Unsupervised Learning in Python
+	- Clustering
+	- Projections
+- Pandas Foundations
+	- Ch3: Time series in pandas
+- Manipulating Time Series Data in Python
+	- All of it
+- Intro to Python for Data Science
+	- Ch4: NumPy
+- Importing Data in Python (Part 1)
+	- Importing data from other file types
+	- SAS/Stata
+	- HDF5
+	- MATLAB
+	- SQL
+- Importing Data in Python (Part 2)
+	- If you are working with web interfaces and APIs
+- Importing & Managing Financial Data in Python
+- Python Data Science Toolbox (Part 1)
+	- Ch3: Lambda functions and error-handling
+- Python Data Science Toolbox (Part 2)
+	- More "pythonic" code
+	- Ch3: Bringing it all together!
+		- Iterators to load data in chunks
+- Manipulating DataFrames with pandas
+	- Ch2: Advanced indexing: MultiIndex
+	- Ch4: Grouping data
+- Intermediate Python for Data Science
+	- Ch1: Matplotlib
+- Introduction to Data Visualization with Python
+- Interactive Data Visualization with Bokeh
+- Statistical Thinking in Python (all the parts)
+- Natural Language Processing Fundamentals in Python (as needed)
+- Introduction to Databases in Python
+	- Using SQLAlchemy in stead of raw SQL querry strings
+
 [1]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
 [2]: http://vita.had.co.nz/papers/tidy-data.html
 [3]: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
