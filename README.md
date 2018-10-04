@@ -1,8 +1,13 @@
+## Pre-readings
+
+1. [A Quick Guide to Organizing Computational Biology Projects][1]
+2. [Tidy Data][2]
+3. [Best Practices for Scientific Computing][3]
+4. [Good enough practices in scientific computing][4]
+
 ## Setup
 
 ### Python
-
-Installing the computational, research, and/or data science packages individually in Python can be a bit difficult.
 <a href="https://www.continuum.io/anaconda">Anaconda</a>,
 an all-in-one installer, is recommended.
 
@@ -92,3 +97,9 @@ To install the packages needed for the class you can follow the instructions bel
 conda install xlwt openpyxl feather-format seaborn statsmodels scikit-learn regex wget odo numba
 pip install lifelines pandas-datareader
 ```
+
+
+[1]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
+[2]: http://vita.had.co.nz/papers/tidy-data.html
+[3]: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
+[4]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
