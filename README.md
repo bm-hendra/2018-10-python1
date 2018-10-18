@@ -8,7 +8,7 @@
 ## Setup
 
 ### Python
-<a href="https://www.continuum.io/anaconda">Anaconda</a>,
+<a href="https://www.anaconda.com/download/">Anaconda</a>,
 an all-in-one installer, is recommended.
 
 Regardless of how you choose to install it,
