@@ -10,7 +10,7 @@ other tools used in Data Science, particularly Git, Bash, SQL, and Make
 
 [https://carpentries.org/](https://carpentries.org/)
 
-## Further learning (DataCamp)
+## DataCamp
 
 A good list of courses from DataCamp to continue your learning journey.
 For some of the classes, I've listed the chapters you can go through without taking the entire course.
