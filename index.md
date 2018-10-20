@@ -51,7 +51,7 @@ Some readings and the tl;dr takeaways to keep in mind.
 ## Future Learning
 
 Now that you have a general sense of how to use Python,
-[where do you go from there?](./future_learning.html).
+[where do you go from there?](./future_learning.html)
 
 ## chendaniely
 
