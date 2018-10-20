@@ -42,7 +42,7 @@ Some readings and the tl;dr takeaways to keep in mind.
 
 ## Setup and Installation
 
-[Setup, Installation, check if everything works, and how to install packages](./setup.html).
+[Setup, Installation, checks, and how to install packages](./setup.html).
 
 ## Syllabus and Class Notes
 
