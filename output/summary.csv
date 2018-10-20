@@ -1,0 +1,13 @@
+                    Logit Regression Results                   
+Dep. Variable:,survived        ,  No. Observations:  ,   714   
+Model:        ,Logit           ,  Df Residuals:      ,   710   
+Method:       ,MLE             ,  Df Model:          ,     3   
+Date:         ,Fri, 19 Oct 2018,  Pseudo R-squ.:     ,0.2576   
+Time:         ,15:04:39        ,  Log-Likelihood:    , -358.04 
+converged:    ,True            ,  LL-Null:           , -482.26 
+              ,                ,  LLR p-value:       ,1.419e-53
+           ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+Intercept  ,    0.9348,    0.239,    3.910, 0.000,    0.466,    1.403
+sex[T.male],   -2.3476,    0.190,  -12.359, 0.000,   -2.720,   -1.975
+age        ,   -0.0106,    0.006,   -1.627, 0.104,   -0.023,    0.002
+fare       ,    0.0128,    0.003,    4.738, 0.000,    0.007,    0.018
