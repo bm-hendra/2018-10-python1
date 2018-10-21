@@ -40,16 +40,19 @@ A list to the notes from class can be found [here](https://github.com/chendaniel
 	- Creating Modules
 	- Importing your own modules
 	- Reloading modules
-- [Functions and applying them]()
+- [Functions and applying them](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/10-apply.ipynb)
 	- Testing functions
-- [Timeseries]()
+- [Timeseries](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/11-timeseries.ipynb)
 	- Working with datetimes objects
 	- Calculating time deltas
 	- Creating time ranges
 	- Creating time offsets
-- [Fitting models]()
+- [SQL](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/12-sql.ipynb)
+	- Connecting and running SQL querries in Python
+	- Getting SQL tables into Pandas
+- [Fitting models](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/13-models.ipynb)
 	- scikitlearn
 	- statsmodels
 	- linear and logistic models
-- [Capstone]()
+- [Capstone](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/99-credit.ipynb)
 	- Predicting credit defaults
