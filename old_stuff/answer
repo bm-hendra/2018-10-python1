@@ -1,0 +1,35 @@
+import pandas as pd   ##### PART 1
+df = pd.read_excel('C:/Users/Danie/Downloads/default of credit card clients vCapstone.xls', header=1)
+
+import seaborn as sns
+sns.countplot(x='Default', data=df)
+
+df.shape
+df = df.drop(['ID'], 'columns')
+
+import statsmodels.formula.api as smf
+import statsmodels.api as sm
+
+from sklearn.utils import shuffle #### PART 2
+df = shuffle(df)
+
+train = df.iloc[:15000]
+test = df.iloc[15000:]
+
+model = smf.logit("Default ~ " + ' + '.join(train.columns[:-1]), data=train) #### PART 3
+results = model.fit()
+results.summary()
+
+res = results.predict(train.drop('Default', axis='columns')) > .5 ##### PART 4
+from sklearn.metrics import confusion_matrix
+
+tn, fp, fn, tp = confusion_matrix(train['Default'], res).ravel()
+# TP + TN / TP + FP + TN + FN
+(tp + tn) / (tp + fp + tn + fn)
+
+res = results.predict(train.drop('Default', axis='columns'))
+prd = res > .5
+tn, fp, fn, tp = confusion_matrix(train['Default'], prd).ravel()
+(tp + tn) / (tp + fp + tn + fn)
+
+sns.distplot(res, bins=10)
