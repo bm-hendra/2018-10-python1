@@ -34,7 +34,7 @@ A list to the notes from class can be found [here](https://github.com/chendaniel
 
 ### Day 2
 
-- [Project Template]()
+- [Project Template](https://github.com/chendaniely/2018-10-python1/tree/master/example_project)
 	- Basic folder structure for organizing analysis projects
 	- Creating Modules
 	- Importing your own modules
