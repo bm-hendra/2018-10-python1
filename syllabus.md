@@ -21,16 +21,16 @@ A list to the notes from class can be found [here](https://github.com/chendaniel
 - [Manual creation of data objects](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/02-pandas_data.ipynb)
 	- Series and DataFrame object methods
 	- Saving/loading data: csv, excel, feather, odo library
--. [Basic plotting](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/03-plots.ipynb)
+- [Basic plotting](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/03-plots.ipynb)
 	- Parts of a matplotlib figure
 	- The Seaborn library
--. [Combining datasets](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/04-concat_merge.ipynb)
+- [Combining datasets](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/04-concat_merge.ipynb)
 	- Contatenation
 	- Joins
--. [Loops and List comprehions](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/05-loops.ipynb)
+- [Loops and List comprehions](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/05-loops.ipynb)
 	- Loading and combining multiple datasets
--. [Missing data](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/06-missing.ipynb)
-- Tidying and reshaping data
+- [Missing data](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/06-missing.ipynb)
+- [Tidying and reshaping data](https://github.com/chendaniely/2018-10-python1/blob/master/notebooks/07-tidy.ipynb)
 
 ### Day 2
 
